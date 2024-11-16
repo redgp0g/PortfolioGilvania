@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Portfolio Pessoal</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><a href="#inicio">portfolio<b>.</b></a></div>
+            <ul class="navItems">
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#sobre">sobre mim</a></li>
+                <li><a href="#habilidades">habilidades</a></li>
+                <li><a href="#projetos">projetos</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/guilherme-gordiano-bb97991b6/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/gordianoguilherme/"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/REDGP0G"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="bx bx-menu" id="menu-icon">
+            </div>
+        </nav>
+        <div class="wrapper" id="inicio">
+            <div class="cols cols0">
+                <span class="topline">Olá</span>
+                <h1>Eu sou<br> <span class="multiText">Programador</span></h1>
+                <p>Se você está buscando alguém com qualificações para desenvolvimento de Aplicativos Web responsivos e
+                    Design atraente para seus clientes, então está no lugar certo!</p>
+                <div class="btns">
+                    <button id="baixarcurriculo">Baixar Currículo</button>
+                    <button onclick="location.href='#contato';">Entrar em Contato</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="splash.png" id="splash">
+                    <img src="eu.png">
+                </div>
+            </div>
+        </div>
+        <section class="sobre" id="sobre">
+            <div class="sobre-img">
+                <img src="eu2.jpg">
+            </div>
+            <div class="sobre-text">
+                <h2>Sobre <span>Mim</span></h2>
+                <h4>Programador</h4>
+                <p>Eu sou Guilherme Pontes de Oliveira Gordiano, moro em Colombo, trabalho na Metalúrgica Schwarz S/A
+                    atuando na área de Inovação e Melhoria Contínua automatizando e digitalizando processos
+                    operacionais. Atualmente estou cursando Sistema de Informação na faculdade Positivo no estilo de
+                    ensino EAD. Como hobbie pratico esportes, principalmente calistenia, leio livros relacionados a
+                    desenvolvimento pessoal, estudo de maneira autônoma tópicos de programação, a maior parte
+                    direcionados à Desenvolvimento Web</p>
+            </div>
+        </section>
+        <section class="habilidades" id="habilidades">
+            <div class="main-text">
+                <p>Quais áreas são minha especialidade</p>
+                <h2><span>Minhas</span> Habilidades</h2>
+            </div>
+            <div class="habilidades-content">
+                <div class="box">
+                    <div class="s-icons">
+                        <ion-icon name="code-slash-outline"></ion-icon>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Meus conhecimentos vão do básico do desenvolvimento web como HTML, CSS e JavaScript até
+                        linguagens de programação como C# o qual é utilizado no framework ASP.NET Core</p>
+                    <a href="#" class="read" style="display: none;">Leia Mais</a>
+                </div>
+                <div class="box">
+                    <div class="s-icons">
+                        <i class='bx bx-table'></i>
+                    </div>
+                    <h3>Excel VBA</h3>
+                    <p>Realizo automatizações de planilhas para tornar os processos mais ágeis e preciso, além de
+                        economizar o tempo de usuário</p>
+                    <a href="#" class="read" style="display: none;">Leia Mais</a>
+                </div>
+                <div class="box">
+                    <div class="s-icons">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
+                    <h3>Design Web</h3>
+                    <p>Tenho iniciado estudos recentes aprofundados em relação a tratativa de cores e formas de maneira
+                        a passar mensagens diferentes conforme sua utilização ao espectador</p>
+                    <a href="#" class="read" style="display: none;">Leia Mais</a>
+                </div>
+            </div>
+        </section>
+        <section class="projetos" id="projetos">
+            <div class="main-text">
+                <h2><span>Meus</span> Projetos</h2>
+            </div>
+
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="projeto1.jpg">
+                    <div class="layer">
+                        <h5>Digitalização de Processo</h5>
+                        <p>Utilizando a ferramenta Excel e seus recursos de VBA criei um sistema ligado a um Banco de
+                            Dados SQL Server para substituir o processo braçal</p>
+                        <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                    </div>
+                </div>
+
+                <a href="https://github.com/redgp0g/PARE">
+                    <div class="row">
+                        <img src="projeto2.jpg">
+                        <div class="layer">
+                            <h5>Sistema do Programa PARE</h5>
+                            <p>Desenvolvi um sistema completo com login e CRUD (Create, Read, Update and Delete)
+                                completo para a área de qualidade da Schwarz S/A</p>
+                            <ion-icon name="link-outline"></ion-icon>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://github.com/redgp0g/Portfolio">
+                    <div class="row">
+                        <img src="projeto3.jpg">
+                        <div class="layer">
+                            <h5>Portfolio</h5>
+                            <p>Este site Portfolio foi minha criação mais recente com o intuito de divulgar minhas
+                                informações profissionais!</p>
+                            <ion-icon name="link-outline"></ion-icon>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="portfolio-content">
+                <a href="https://github.com/redgp0g/Rastreador-de-Gastos">
+                    <div class="row">
+                        <img src="projeto4.jpg">
+                        <div class="layer">
+                            <h5>Rastreador de Gastos</h5>
+                            <p>Criei um site para controle de gastos com criação de categorias e transações!</p>
+                            <ion-icon name="link-outline"></ion-icon>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/redgp0g/Schwarz">
+                    <div class="row">
+                        <img src="projeto5.jpg">
+                        <div class="layer">
+                            <h5>Sistema Integrado Schwarz</h5>
+                            <p>Devido a necessidade de vários funções na empresa, eu centralizei elas em um único
+                                sistema!</p>
+                            <ion-icon name="link-outline"></ion-icon>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contato" class="section-contratarme">
+            <div class="form-box">
+                <div class="form-value">
+                    <form id="form" method="post">
+                        <h2 id="h2contratacao">Formulário de Contato</h2>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input id="email" name="email" type="email" required>
+                            <label for="">Email *</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="document-text-outline"></ion-icon>
+                            <textarea id="message" name="message" cols="35" rows="5" required></textarea>
+                            <label for="">Mensagem *</label>
+                        </div>
+                        <div class="inputbox">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <input type="number" id="phone" name="phone">
+                            <label for="">Telefone</label>
+                        </div>
+                        <button id="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="end">
+            <div class="last-text">
+                <p>@2023 Todos os Direitos Reservados - Criado por Guilherme Gordiano</p>
+            </div>
+            <div class="top">
+                <a href="#inicio"><ion-icon name="arrow-up-outline"></ion-icon></a>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["programador", "designer", "autodidata", "leitor", "esportista", "músico"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1500
+        });
+        var btn = document.getElementById('btn');
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var email = document.getElementById('email').value,
+                message = document.getElementById('message').value,
+                phone = document.getElementById('phone').value,
+                body = 'Email: ' + email + '<br/> Mensagem:' + message + '<br/> Número: ' + phone;
+            Email.send({
+                SecureToken: "756c46a8-e62c-4f09-9fb3-40f17e3daaab",
+                To: 'guilhermeg2004@gmail.com',
+                From: 'guilhermeg2004@gmail.com',
+                Subject: 'Mensagem sobre Contato',
+                Body: body
+            }).then(
+            );
+            alert('Mensagem Enviada com Sucesso');
+            document.getElementById('form').reset();
+        });
+    </script>
+</body>
+
+</html>
