@@ -495,7 +495,19 @@ span{
     font-size: 15px;
     color: var(--bg-color);
     background: var(--main-color);
-}@media(max-width: 1680px){
+}
+
+.link-guilherme{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+.link-guilherme:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+@media(max-width: 1680px){
     nav{
         padding: 12px 2.5%;
         transition: .1s;
