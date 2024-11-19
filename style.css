@@ -232,18 +232,7 @@ button:hover{
     background-position: center;
     background-size: cover;
 }
-.form-box{
-    border-radius: 8px;
-    position: relative;
-    width: 450px;
-    height: 500px;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 15px 15px 10px rgba(255, 255, 255, 0.4);
-}
+
 .form-value{
     width: 400px;
     height: 500px;
@@ -345,9 +334,7 @@ span{
     line-height: 1.8;
     margin-bottom: 4rem;
 }
-.habilidades{
-    background: gray;
-}
+
 .main-text{
     text-align: center;
 }
@@ -360,36 +347,8 @@ span{
     font-size: var(--h2-font);
     line-height: 1;
 }
-.habilidades-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
-    gap: 2.5rem;
-    margin-top: 5rem;
-}
-.box{
-    background: var(--bg-color);
-    padding: 35px 45px;
-    border-radius: 8px;
-    transition:  all .45s ease;
-}
-.s-icons ion-icon, i{
-    font-size: 32px;
-    margin-bottom: 20px;
-}
 
-.box h3{
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--main-color);
-    margin-bottom: 15px;
-}
-.box p{
-    color: #444e53;
-    font-size: var(--p-font);
-    line-height: 1.8;
-    margin-bottom: 25px;
-}
+
 .read{
     display: inline-block;
     padding: 8px 18px;
@@ -405,10 +364,6 @@ span{
     letter-spacing: 1px;
     background: #7c7c7c99;
     color: #000000;
-}
-.box:hover{
-    transform: translateY(-8px);
-    cursor: pointer;
 }
 
 .row{
@@ -551,9 +506,6 @@ span{
 }
 
 @media (max-width: 500px){
-    .form-box{
-        width: 90vw;
-    }
     .wrapper::before{
         height: 350px;
         width: 350px;
