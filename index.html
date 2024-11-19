@@ -101,67 +101,14 @@
         </section>
         <section class="projetos" id="projetos">
             <div class="main-text">
-                <h2><span>Meus</span> Projetos</h2>
+                <h2>Meu <span>Funcionamento</span></h2>
             </div>
-
-            <div class="portfolio-content">
-                <div class="row">
-                    <img src="projeto1.jpg">
-                    <div class="layer">
-                        <h5>Digitalização de Processo</h5>
-                        <p>Utilizando a ferramenta Excel e seus recursos de VBA criei um sistema ligado a um Banco de
-                            Dados SQL Server para substituir o processo braçal</p>
-                        <a href="#"><ion-icon name="link-outline"></ion-icon></a>
-                    </div>
-                </div>
-
-                <a href="https://github.com/redgp0g/PARE">
-                    <div class="row">
-                        <img src="projeto2.jpg">
-                        <div class="layer">
-                            <h5>Sistema do Programa PARE</h5>
-                            <p>Desenvolvi um sistema completo com login e CRUD (Create, Read, Update and Delete)
-                                completo para a área de qualidade da Schwarz S/A</p>
-                            <ion-icon name="link-outline"></ion-icon>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/redgp0g/Portfolio">
-                    <div class="row">
-                        <img src="projeto3.jpg">
-                        <div class="layer">
-                            <h5>Portfolio</h5>
-                            <p>Este site Portfolio foi minha criação mais recente com o intuito de divulgar minhas
-                                informações profissionais!</p>
-                            <ion-icon name="link-outline"></ion-icon>
-                        </div>
-                    </div>
-                </a>
-
+            <div class="grafico-content">
+                <canvas id="graficoColunas"></canvas>
+                <canvas id="graficoPizza"></canvas>
             </div>
-            <div class="portfolio-content">
-                <a href="https://github.com/redgp0g/Rastreador-de-Gastos">
-                    <div class="row">
-                        <img src="projeto4.jpg">
-                        <div class="layer">
-                            <h5>Rastreador de Gastos</h5>
-                            <p>Criei um site para controle de gastos com criação de categorias e transações!</p>
-                            <ion-icon name="link-outline"></ion-icon>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://github.com/redgp0g/Schwarz">
-                    <div class="row">
-                        <img src="projeto5.jpg">
-                        <div class="layer">
-                            <h5>Sistema Integrado Schwarz</h5>
-                            <p>Devido a necessidade de vários funções na empresa, eu centralizei elas em um único
-                                sistema!</p>
-                            <ion-icon name="link-outline"></ion-icon>
-                        </div>
-                    </div>
-                </a>
+            <div class="tendencias-content">
+                
             </div>
         </section>
 
@@ -177,8 +124,10 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 

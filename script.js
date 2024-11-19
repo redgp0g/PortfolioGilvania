@@ -26,3 +26,94 @@ var typingEffect = new Typed(".multiText", {
   backDelay: 1500,
 });
 
+Chart.register(ChartDataLabels);
+
+new Chart(document.getElementById("graficoPizza"), {
+  type: "pie",
+  data: {
+    labels: ["Esquizóide", "Oral", "Psicopata", "Masoquista", "Rígido"],
+    datasets: [
+      {
+        data: [23, 12, 17, 22, 27],
+        backgroundColor: [
+          "rgba(0, 0, 255)",
+          "rgba(255, 165, 0)",
+          "rgba(255, 88, 38)",
+          "rgba(60, 179, 113)",
+          "rgba(238, 130, 238)",
+        ],
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    plugins: {
+      legend: {
+        display: false,
+      },
+      datalabels: {
+        anchor: 'center',
+        align: 'center',
+        color: 'white',
+        font: {
+          weight: 'bold',
+        },
+        formatter: function(value) {
+          return value + '%'; // Adiciona o símbolo de porcentagem aos valores
+        }
+      }
+    },
+  },
+});
+
+new Chart(document.getElementById("graficoColunas"), {
+    type: "bar",
+    data: {
+      labels: ["Esquizóide", "Oral", "Psicopata", "Masoquista", "Rígido"],
+      datasets: [
+        {
+          data: [23, 12, 17, 22, 27],
+          backgroundColor: [
+            "rgba(0, 0, 255)",
+            "rgba(255, 165, 0)",
+            "rgba(255, 88, 38)",
+            "rgba(60, 179, 113)",
+            "rgba(238, 130, 238)",
+          ],
+          borderWidth: 1,
+        },
+      ],
+    },
+    options: {
+      indexAxis: "y",
+      plugins: {
+        legend: {
+          display: false,
+        },
+        datalabels: {
+          anchor: 'end',
+          align: 'end',
+          color: 'black',
+          font: {
+            weight: 'bold',
+          },
+          formatter: function(value) {
+            return value + '%'; // Adiciona o símbolo de porcentagem aos valores
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: {
+            display: false,
+          },
+        },
+        y: {
+          grid: {
+            display: false,
+          },
+        },
+      },
+    },
+  });
+  
