@@ -28,13 +28,16 @@ var typingEffect = new Typed(".multiText", {
 
 Chart.register(ChartDataLabels);
 
+
+const porcentagens = [ 15, 25, 18, 15, 27 ];
+
 new Chart(document.getElementById("graficoPizza"), {
   type: "pie",
   data: {
     labels: ["Esquizóide", "Oral", "Psicopata", "Masoquista", "Rígido"],
     datasets: [
       {
-        data: [23, 12, 17, 22, 27],
+        data: porcentagens,
         backgroundColor: [
           "rgba(0, 0, 255)",
           "rgba(255, 165, 0)",
@@ -72,7 +75,7 @@ new Chart(document.getElementById("graficoColunas"), {
       labels: ["Esquizóide", "Oral", "Psicopata", "Masoquista", "Rígido"],
       datasets: [
         {
-          data: [23, 12, 17, 22, 27],
+          data: porcentagens,
           backgroundColor: [
             "rgba(0, 0, 255)",
             "rgba(255, 165, 0)",
