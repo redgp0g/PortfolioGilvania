@@ -3,9 +3,9 @@
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font:1.1rem;
-    --main-color: #ff007f;
+    --main-color: #ca982b;
     --bg-color: #f3f5f8;
-    --second-bg-color:#3d535f;
+    --second-bg-color:#ff8800;
 }
 
 
@@ -206,7 +206,7 @@ button:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) rotate(-35deg);
-    width: 100%;
+    width: 80%;
     filter: saturate(200%);
 }
 #aviso{
@@ -451,15 +451,6 @@ span{
     text-decoration: underline;
 }
 
-.grafico-content{
-    margin: 60px 0 60px 0 ;
-    width: 100%;
-    height: 40vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .tendencia-content{
     display: grid;
@@ -612,13 +603,6 @@ span{
         --h2-font: 2.5rem;
         --p-font: 1rem;
         transition: .1s;
-    }
-    .grafico-content{
-        grid-template-columns: 1fr;
-        height: 100%;
-    }
-    #graficoPizza{
-        max-height: 70vh;
     }
 
 }
