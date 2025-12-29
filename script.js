@@ -26,9 +26,6 @@ var typingEffect = new Typed('.multiText', {
     backDelay: 1500,
 });
 
-Chart.register(ChartDataLabels);
-
-const porcentagens = [15, 25, 18, 15, 27];
 
 var modal = document.getElementById('videoModal');
 var btn = document.getElementById('showVideoBtn');
